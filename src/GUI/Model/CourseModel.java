@@ -23,17 +23,7 @@ public final class CourseModel {
    
     public CourseModel()
     {   
-//        
-//        Course sde = new Course(1,"SDE");
-//        Course sco = new Course(2,"SCO");
-//        Course ito = new Course(3,"ITO");
-//        Course dbo = new Course(4,"DBO");
-//        
-//        addCourse(sde);
-//        addCourse(sco);
-//        addCourse(ito);
-//        addCourse(dbo);
-//        
+      
     }
     
     public ArrayList<Course> getCourse()

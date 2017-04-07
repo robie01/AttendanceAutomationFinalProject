@@ -20,7 +20,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
@@ -50,15 +49,10 @@ public class StudentMainScheduleController implements Initializable {
     private Label lblId;
     @FXML
     private Label lblDate;
-    @FXML
     private Label lblMonday;
-    @FXML
     private Label lblTuesday;
-    @FXML
     private Label lblWednesday;
-    @FXML
     private Label lblThursday;
-    @FXML
     private Label lblFriday;
     @FXML
     private Label lblMon1;
@@ -97,7 +91,7 @@ public class StudentMainScheduleController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        putWeekDays();
+       
         prepareSchedule();
         mapLessonsWithLabels();
     }
@@ -153,14 +147,6 @@ public class StudentMainScheduleController implements Initializable {
             }
         }
 
-    }
-
-    private void putWeekDays() {
-        lblMonday.setText("Monday");
-        lblTuesday.setText("Tuesday");
-        lblWednesday.setText("Wednesday");
-        lblThursday.setText("Thursday");
-        lblFriday.setText("Friday");
     }
 
     private void displayTeacherView() throws IOException {
@@ -295,6 +281,8 @@ public class StudentMainScheduleController implements Initializable {
         String s = "";
         return s;
     }
+    
+   
 
 //    private void summaryBtnAction(ActionEvent event) {
 //        

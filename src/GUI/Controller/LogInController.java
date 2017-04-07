@@ -5,7 +5,6 @@
  */
 package GUI.Controller;
 
-import BE.Course;
 import BE.Student;
 import java.io.IOException;
 import java.net.URL;
@@ -25,15 +24,11 @@ import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import BLL.PersonManager;
 import DAL.StudentDataManager;
-import DAL.PersonFile;
-import java.util.Date;
 import java.util.List;
-import BE.Lesson;
 import BE.Teacher;
 import DAL.CourseDataManager;
 import DAL.LessonDataManager;
 import DAL.TeacherDataManager;
-import GUI.Model.CourseModel;
 import java.time.LocalDate;
 import javafx.scene.control.DatePicker;
 

@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="560.0" styleClass="anchorPane" stylesheets="@../../CSS/myStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller.StudentMainScheduleController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="560.0" styleClass="anchorPane" stylesheets="@../../CSS/myStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller.StudentMainScheduleController">
    <children>
       <SplitPane layoutX="99.0" layoutY="259.0" orientation="VERTICAL" prefHeight="167.0" prefWidth="560.0" AnchorPane.bottomAnchor="134.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -37,11 +37,6 @@
             </AnchorPane>
         </items>
       </SplitPane>
-      <Label fx:id="lblMonday" layoutX="23.0" layoutY="184.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
-      <Label fx:id="lblTuesday" layoutX="126.0" layoutY="184.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
-      <Label fx:id="lblWednesday" layoutX="230.0" layoutY="184.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
-      <Label fx:id="lblThursday" layoutX="336.0" layoutY="184.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
-      <Label fx:id="lblFriday" layoutX="442.0" layoutY="184.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
       <Label fx:id="lblMon1" layoutX="23.0" layoutY="217.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
       <Label fx:id="lblTues1" layoutX="126.0" layoutY="217.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
       <Label fx:id="lblWed1" layoutX="230.0" layoutY="217.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
@@ -52,5 +47,10 @@
       <Label fx:id="lblWed2" layoutX="230.0" layoutY="251.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
       <Label fx:id="lblThur2" layoutX="336.0" layoutY="251.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
       <Label fx:id="lblFri2" layoutX="442.0" layoutY="251.0" prefHeight="27.0" prefWidth="95.0" styleClass="lblBase" />
+      <Label layoutX="54.0" layoutY="188.0" text="Monday" />
+      <Label layoutX="147.0" layoutY="188.0" text="Tuesday" />
+      <Label layoutX="241.0" layoutY="188.0" text="Wednesday" />
+      <Label layoutX="348.0" layoutY="188.0" text="Thursday" />
+      <Label layoutX="473.0" layoutY="188.0" text="Friday" />
    </children>
 </AnchorPane>

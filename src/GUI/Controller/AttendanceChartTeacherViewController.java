@@ -28,26 +28,13 @@ import javafx.scene.layout.AnchorPane;
 public class AttendanceChartTeacherViewController implements Initializable
 {
 
-//    @FXML
-//    private AnchorPane topPane;
-//    @FXML
-//    private TextField textFieldStudent;
-//    @FXML
-//    private TextField textFieldTotalAbs;
-//    @FXML
-//    private TextField textFieldMostAbsOn;
-//    @FXML
-//    private TextField textFieldAbsSum;
+
     @FXML
     private AnchorPane bottomPane;
-//    @FXML
-//    private Button CloseBtn;
+
     @FXML
     private Button CurrentMonthBtn;
-//    @FXML
-//    private Button SemesterBtn;
-//    @FXML
-//    private Button LastTwoMonthsBtn;
+
     
     private Student currentStudent;
 

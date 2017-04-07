@@ -9,16 +9,13 @@ import BE.*;
 import BLL.PersonManager;
 import DAL.CourseDataManager;
 import DAL.LessonDataManager;
-import DAL.TeacherDataManager;
 
 import java.io.IOException;
 import java.net.URL;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -33,7 +30,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 public class TeacherMainViewScheduleController implements Initializable {

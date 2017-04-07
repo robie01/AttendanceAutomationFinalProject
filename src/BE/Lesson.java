@@ -28,6 +28,7 @@ private Time endTime;
         this.lessonDate = lessonDate;
         this.startTime = startTime;
         this.endTime = endTime;
+  
     }
 
     public int getLessonId() {

@@ -89,22 +89,4 @@ public class AttendanceDataManager {
         }
         return false;
     }
-
-//    public void updateAttendanceForThisStudent(int studentId, Lesson lesson) {
-//        int lessonId = lesson.getLessonId();
-//        try (Connection con = conManager.getConnection()) {
-//            String sqlQuery = "UPDATE Attendance SET isPresent=? WHERE studentId=? AND lessonId=?";
-//            PreparedStatement pstmt = con.prepareStatement(sqlQuery);
-//
-//            pstmt.setBoolean(1, true);
-//            pstmt.setInt(2, studentId);
-//            pstmt.setInt(3, lessonId);
-//
-//            pstmt.execute();
-//
-//        } catch (SQLException sqle) {
-//            System.err.println(sqle);
-//        }
-//
-//    }
 }

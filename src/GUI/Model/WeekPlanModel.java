@@ -15,31 +15,31 @@ import javafx.collections.FXCollections;
  */
 public class WeekPlanModel {
     
-    private List<Student> weekList = FXCollections.observableArrayList();
-    
-   
-    
-    
-    //     nkiop009   singleton
-    private static final WeekPlanModel WEEKPLANMODEL = new WeekPlanModel();
-    
-    private WeekPlanModel()
-    {
-        
-    }
-    
-    
-    public List<Student> getWeekList()
-    {
-        return weekList;
-        
-    }
-    
-  
-    //Singleton
-    public static WeekPlanModel getWeekPlanModel()
-    {
-        return WEEKPLANMODEL;
-    }
-    
+//    private List<Student> weekList = FXCollections.observableArrayList();
+//    
+//   
+//    
+//    
+//    //     nkiop009   singleton
+//    private static final WeekPlanModel WEEKPLANMODEL = new WeekPlanModel();
+//    
+//    private WeekPlanModel()
+//    {
+//        
+//    }
+//    
+//    
+//    public List<Student> getWeekList()
+//    {
+//        return weekList;
+//        
+//    }
+//    
+//  
+//    //Singleton
+//    public static WeekPlanModel getWeekPlanModel()
+//    {
+//        return WEEKPLANMODEL;
+//    }
+//    
 }
