@@ -32,8 +32,8 @@ public class ConnectionManager
     
     private  void setupDataSouce(){
      ds.setDatabaseName("CS2016B_OneLiners_AttendanceAutomation");
-     ds.setUser("CS2016B_9");
-     ds.setPassword("CS2016B_9");
+     ds.setUser("CS2016B_26");
+     ds.setPassword("CS2016B_26");
      ds.setPortNumber(1433);
      ds.setServerName("10.176.111.31");
         }
