@@ -25,11 +25,10 @@ public class ConnectionManagerTest {
     public void testGetConnection() throws Exception {
         System.out.println("getConnection");
         ConnectionManager instance = new ConnectionManager();
-        
-        Connection expResult = instance.getConnection();
+        Connection expResult = null;
         Connection result = instance.getConnection();
         assertEquals(expResult, result);
-        
+       
     }
     
 }
