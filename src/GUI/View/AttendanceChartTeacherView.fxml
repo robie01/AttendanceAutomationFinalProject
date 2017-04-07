@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="477.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller.AttendanceChartTeacherViewController">
+   <children>
+      <SplitPane dividerPositions="0.2716049382716049" orientation="VERTICAL" prefHeight="620.0" prefWidth="809.0">
+        <items>
+          <AnchorPane fx:id="topPane" minHeight="0.0" minWidth="0.0" prefHeight="90.0" prefWidth="603.0">
+               <children>
+                  <TextField fx:id="textFieldStudent" layoutX="83.0" layoutY="23.0" prefHeight="25.0" prefWidth="213.0" />
+                  <TextField fx:id="textFieldTotalAbs" layoutX="471.0" layoutY="93.0" prefHeight="27.0" prefWidth="182.0" />
+                  <TextField fx:id="textFieldMostAbsOn" layoutX="471.0" layoutY="22.0" prefHeight="27.0" prefWidth="182.0" />
+                  <TextField fx:id="textFieldAbsSum" layoutX="471.0" layoutY="55.0" prefHeight="27.0" prefWidth="182.0" />
+                  <Text layoutX="23.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student:" />
+                  <Text layoutX="344.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total absence:" />
+                  <Text layoutX="344.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Most absent on:" />
+                  <Text layoutX="345.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Absence summary:" />
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="bottomPane" minHeight="0.0" minWidth="0.0" prefHeight="502.0" prefWidth="820.0">
+               <children>
+                  <Button fx:id="CurrentMonthBtn" layoutX="653.0" layoutY="177.0" mnemonicParsing="false" onAction="#handleShowMonthAttendance" prefHeight="27.0" prefWidth="131.0" text="Current month" />
+                  <Button fx:id="SemesterBtn" layoutX="653.0" layoutY="246.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="131.0" text="Semester" />
+                  <Button fx:id="LastTwoMonthsBtn" layoutX="653.0" layoutY="213.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="131.0" text="Last two months" />
+                  <Text layoutX="653.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show attendance for:" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

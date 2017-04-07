@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 17, 2017, 6:17:08 PM
+    Author     : robiesun
+*/
+
+.root
+{
+    -fx-background-color: #778899;
+}
+.button
+{
+    -fx-font-family:"Arial";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#9EA7E5, #61a2b1);
+    -fx-text-fill: #383640;
+}
+.button:hover
+{
+    -fx-background-color:  linear-gradient(#2A5058, #61a2b1);   
+    -fx-background-fills: #ffffff;
+}
+
+.studentLabel
+{
+    -fx-font-family:"Segoe UI";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+   -fx-text-fill: #000000;
+}
+.infoButton
+{
+    -fx-font-family:"Segoe UI";
+    -fx-font-size: 15px;
+}
+.specialButton
+{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 15px;
+}
+.splitpane
+{
+    -fx-background-color:#778899;
+}
+.anchorPane
+{
+    -fx-background-color: #d3d3d3;
+}
+.lblGreen{
+    -fx-background-color: green;
+}
+.lblRed{
+    -fx-background-color: red;
+}
+.lblBase{
+    -fx-background-color: white;
+    
+}

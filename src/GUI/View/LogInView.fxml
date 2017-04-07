@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="342.0" prefWidth="348.0" stylesheets="@../../CSS/myStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller.LogInController">
+   <children>
+      <TextField fx:id="studentId" layoutX="91.0" layoutY="186.0" onKeyPressed="#EnterLogin" promptText="student's id no" />
+      <PasswordField fx:id="passwordField" layoutX="91.0" layoutY="233.0" onKeyPressed="#EnterLogin" promptText="password" />
+      <Button fx:id="logIn" layoutX="138.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleButton" onKeyPressed="#EnterLogin" text="Log-in" />
+      <ImageView fitHeight="130.0" fitWidth="186.0" layoutX="81.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/easvLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="167.0" layoutX="109.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/personImage.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
