@@ -10,7 +10,7 @@ and open the template in the editor.
 
 .root
 {
-    -fx-background-color: #778899;
+/*    -fx-background-color: #778899;*/
 }
 .button
 {
@@ -49,7 +49,7 @@ and open the template in the editor.
 }
 .anchorPane
 {
-    -fx-background-color: #d3d3d3;
+/*    -fx-background-color: #d3d3d3;*/
 }
 .lblGreen{
     -fx-background-color: green;
